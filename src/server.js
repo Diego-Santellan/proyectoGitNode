@@ -15,6 +15,6 @@ app.get("/user", (req, res)=>{
     res.send({name:"pepe", age:30})
 });
 
-app.get("/users", (req, res)=>{
-    res.send({name:"pepe", age:30},{name:"pepa", age:20})
+app.get("/user", (req, res)=>{
+    res.send({name:"pepe", age:30})
 });
