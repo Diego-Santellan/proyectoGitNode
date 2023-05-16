@@ -14,3 +14,7 @@ app.get("/", (req, res)=>{
 app.get("/user", (req, res)=>{
     res.send({name:"pepe", age:30})
 });
+
+app.get("/users", (req, res)=>{
+    res.send({name:"pepe", age:30},{name:"pepa", age:20})
+});
